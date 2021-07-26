@@ -1,5 +1,9 @@
 package com.pedroso.diogo.assignment.authentication.security;
-
+/**
+ * 
+ * Request Model for Authentication
+ * 
+ */
 public class AuthenticationRequestModel {
     
     private String username;

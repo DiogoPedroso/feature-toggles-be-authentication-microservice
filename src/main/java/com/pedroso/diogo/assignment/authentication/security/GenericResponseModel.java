@@ -1,5 +1,11 @@
 package com.pedroso.diogo.assignment.authentication.security;
 
+/**
+ * 
+ * Generic Response Model for Authentication
+ * 
+ */
+
 public class GenericResponseModel {
     private String message;
 

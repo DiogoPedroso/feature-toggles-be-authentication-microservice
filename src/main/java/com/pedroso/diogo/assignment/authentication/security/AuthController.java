@@ -26,6 +26,13 @@ public class AuthController {
     @Autowired
     private JWTUtil jwtUtils;
 
+    /**
+     * API function that returns either a jwt token if user is sucessfully logged or error message
+     * 
+     * @param authRequest
+     * @return JWT Token or Bad Username/Password message
+     * @throws Exception
+     */
     @PostMapping("/authenticate")
     @CrossOrigin("*")
     @PermitAll

@@ -1,5 +1,11 @@
 package com.pedroso.diogo.assignment.authentication.security;
 
+/**
+ * 
+ * Response Model for Authentication
+ * 
+ */
+
 public class AuthenticationResponseModel {
     private String jwt;
 
