@@ -1,0 +1,8 @@
+server:
+    port: 8082
+    
+app:
+    security:
+        jwt:
+            secret: SECRET
+            expiration-time-ms: 172800000
