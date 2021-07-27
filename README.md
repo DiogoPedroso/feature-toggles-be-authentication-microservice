@@ -1,6 +1,6 @@
 # Authentication Microservice
 
-This is the Authentication and Authorization Microservice that was created for the "Feature Toggle" assignment. The users have been hardcoded into Spring's "InMemoryUserDetailsManager", userAdmin has access to the FE and userApp has access to the "get client features access list". Both users have "password" has the "password".
+This is the Authentication and Authorization Microservice that was created for the "Feature Toggle" assignment. The users have been hardcoded into Spring's "InMemoryUserDetailsManager", userAdmin has access to the FE and userApp has access to the "get client features access list". Both users have "password" has the "password". Update the aplication yaml file according to your environment's config.
 
 Requires JAVA 16 and Maven.
 
